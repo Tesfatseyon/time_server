@@ -1,0 +1,111 @@
+/* Root background */
+.root {
+    -fx-background-color: linear-gradient(to bottom, #e0f2f7, #a7d9ed);
+    -fx-padding: 24px;
+    -fx-font-family: "Poppins", "Inter", "Roboto", Arial, sans-serif;
+    -fx-font-size: 14px;
+    -fx-text-fill: #343a40;
+}
+
+/* Header */
+.title {
+    -fx-font-size: 28px;
+    -fx-font-weight: 600;
+    -fx-text-fill: #288cef;
+}
+.ip-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: 400;
+    -fx-text-fill: #6c757d;
+}
+
+/* Clock label (big digits) */
+#clockLabel {
+    -fx-font-family: "Consolas";
+    -fx-font-size: 90px;
+    -fx-font-weight: bold;
+    -fx-text-fill: linear-gradient(to right, #00c6ff, #0072ff);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.6), 8,0,0,2);
+}
+
+/* ComboBox */
+.combo-box {
+    -fx-pref-width: 220px;
+    -fx-pref-height: 36px;
+    -fx-background-color: #f8f9fa;
+    -fx-border-color: #ced4da;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 0 8;
+    -fx-font-size: 14px;
+    -fx-text-fill: #495057;
+}
+
+/* Buttons */
+.button {
+    -fx-pref-height: 40px;
+    -fx-font-size: 14px;
+    -fx-font-weight: 500;
+    -fx-cursor: hand;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+}
+
+/* Primary buttons */
+.btn-primary {
+    -fx-pref-width: 160px;
+    -fx-background-color: linear-gradient(to bottom right, #42a5f5, #288cef);
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow(gaussian, rgba(40,140,240,0.20), 10, 0.12, 0, 4);
+}
+.btn-primary:hover {
+    -fx-background-color: linear-gradient(to bottom right, #288cef, #1565c0);
+}
+
+/* Secondary buttons */
+.btn-secondary {
+    -fx-pref-width: 140px;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #343a40;
+    -fx-border-color: #ced4da;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.05), 6, 0.06, 0, 2);
+}
+.btn-secondary:hover {
+    -fx-background-color: #f1f1f1;
+}
+
+/* Log area */
+.log {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ced4da;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 8;
+    -fx-font-family: "Consolas", "Courier New", monospace;
+    -fx-font-size: 13px;
+    -fx-control-inner-background: #f9f9f9;
+}
+
+/* Status bar */
+.status-bar {
+    -fx-pref-height: 48px;
+    -fx-alignment: center;
+    -fx-font-size: 16px;
+    -fx-font-weight: 500;
+    -fx-padding: 0 12;
+    -fx-background-radius: 0 0 12 12;
+}
+
+/* Status colors */
+.status-ok {
+    -fx-background-color: #2e7d32; /* green */
+    -fx-text-fill: #ffffff;
+}
+.status-error {
+    -fx-background-color: #c62828; /* red */
+    -fx-text-fill: #ffffff;
+}
+.status-idle {
+    -fx-background-color: #ef6c00; /* orange */
+    -fx-text-fill: #ffffff;
+}
